@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+   omkarwebapp:
+     image: omkarmobiweb:appv1
+     build: .
+     container_name: omkarwebc1
+     ports:
+       - 1111:80
+     restart: always
